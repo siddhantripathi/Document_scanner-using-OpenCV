@@ -2,10 +2,9 @@ import cv2
 import numpy as np
 
 
-###################################
-widthImg=540
+widthImg=480
 heightImg =640
-#####################################
+
 
 cap = cv2.VideoCapture(0)
 cap.set(10,150)
