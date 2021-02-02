@@ -3,7 +3,7 @@ CamScanner-In-Python
 
 The script takes an image as input and then scans the document from the image by applying few image processing techniques and gives the output image with scanned effect
 
-How does it do this?
+
 Initially we need to resize the images so OpenCV can handle it and then the following functions are applied
 
 Guassian Blur to smoothen image.
