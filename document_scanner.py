@@ -5,7 +5,7 @@ import utlis
  
 webCamFeed = True
 pathImage = "1.jpg"
-cap = cv2.VideoCapture(0)
+##cap = cv2.VideoCapture(0)
 cap.set(10,160)
 heightImg = 640
 widthImg  = 480
@@ -14,8 +14,8 @@ count=0
  
 while True:
  
-    if webCamFeed:success, img = cap.read()
-    else:img = cv2.imread(pathImage)
+    ##if webCamFeed:success, img = cap.read()
+    img = cv2.imread(pathImage)
     img = cv2.resize(img, (widthImg, heightImg)) # RESIZE IMAGE
     imgBlank = np.zeros((heightImg,widthImg, 3), np.uint8) # CREATE A BLANK IMAGE FOR TESTING DEBUGING IF REQUIRED
     imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) # CONVERT IMAGE TO GRAY SCALE
