@@ -16,3 +16,5 @@ Initially we need to resize the images so OpenCV can handle it and then the foll
 
 5)Apply perspective trasform to get scanned image
 
+Output
+![alt text]https://github.com/siddhantripathi/Document_scanner-using-OpenCV/blob/main/output_doc_scan.jpg
